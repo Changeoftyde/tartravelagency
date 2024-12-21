@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<body>
+<div id="planebg"></div>
+<div id="map">
+</div>
+<img src="IMG_8953.png" id="logo">
+<style>
+#logo {
+  width: 
+}
+</style>
+<script>
+rendermap();
+window.addEventListener("resize", rendermap);
+function rendermap() {
+  document.getElementById("map").style.top = window.innerHeight - (window.innerWidth * 0.0331) + "px";
+}
+</script>
+</body>
+</html>
